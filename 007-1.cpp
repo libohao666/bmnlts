@@ -22,8 +22,7 @@ void init(){
 		prime[++prime[0]] = i;
 		for(int64_t j = i * i;j <= max_n; j += i) {
 			prime[j] = 1;
-		}
-		
+		}		
 	}
 }
 int main(){
