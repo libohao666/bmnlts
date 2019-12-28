@@ -11,6 +11,6 @@ git commit -m $(date "+%Y%m%d")
 git push origin master
 expect {
 	"Username for 'https://github.com':" {
-		send "libohao666"
+	send "libohao666"
 	}
 }
