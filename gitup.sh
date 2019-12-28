@@ -9,6 +9,5 @@
 git add *
 git commit -m $(date "+%Y%m%d")
 git push origin master
-send "libohao666\n"
-
-send "libohao0"
+send "libohao666\n";
+send "libohao0";
