@@ -9,5 +9,8 @@
 git add *
 git commit -m $(date "+%Y%m%d")
 git push origin master
-send "libohao666\n";
-send "libohao0";
+expect {
+	"Username for 'https://github.com':" {
+		send "libohao666"
+	}
+}
